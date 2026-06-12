@@ -27,7 +27,7 @@ public class Customer {
     @Column(name = "email", nullable = false, unique = true, length = 250)
     private String email;
 
-    @Column(name = "phone", nullable = false)
+    @Column(name = "phone")
     private String phone;
 
     @CreationTimestamp
